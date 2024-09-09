@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.158);
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+header img{
+    border-radius: 0px;
+    width: 110px;
+}
+
+header .div .links{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(250, 223, 250);
+    color: #9800c2;
+    font-weight: 600;
+}
+
+header .div .profile{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+}
+
+header .preview{
+    width: 80px;
+    height: 30px;
+    border: 1px solid #9800c2;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: #9800c2;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.container{
+    display: flex;
+}
+
+.container .img{
+    width: 40%;
+    height: 84vh;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px 0 0;
+}
+
+.container .img img{
+    border-radius: 7px;
+    width: 230px;
+}
+
+
+
+
+
+
+.user{
+    width: 60%;
+    height: 84vh;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.user .btn1{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #9800c2;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: #9800c2;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+
+.user .link1{
+    width: 100%;
+    min-height: 100px;
+    background-color: rgba(175, 175, 175, 0.158);
+    border-radius: 7px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.user .link1 div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+}
+
+.user .link1 p{
+    font-size: 13px;
+}
+
+.user .link1 input{
+    width: 98%;
+    height: 25px;
+    margin: 5px 0 5px 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: white;
+    padding: 0 0 0 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.user .link1 select{
+    width: 98%;
+    height: 25px;
+    margin: 5px 0 5px 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: white;
+    padding: 0 0 0 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.diiv{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.diiv button{
+    width: 50px;
+    height: 30px;
+    border: none;
+    background-color: #9800c2;
+    color: aliceblue;
+    border-radius: 5px;
+}
